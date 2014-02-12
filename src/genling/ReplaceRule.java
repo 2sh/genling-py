@@ -1,4 +1,4 @@
-package creling;
+package genling;
 
 import java.util.regex.Pattern;
 
@@ -9,15 +9,15 @@ public class ReplaceRule {
 	private String replacement;
 	private double probability = 1.0;
 	
-	public ReplaceRule(String regex, String replacement, double probability) {
-		super();
+	public ReplaceRule(String regex, String replacement, double probability)
+	{
 		setRegex(regex);
 		this.replacement = replacement;
 		this.probability = probability;
 	}
 	
-	public ReplaceRule(String regex, String replacement) {
-		super();
+	public ReplaceRule(String regex, String replacement)
+	{
 		setRegex(regex);
 		this.replacement = replacement;
 	}
