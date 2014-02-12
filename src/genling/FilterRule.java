@@ -1,4 +1,4 @@
-package creling;
+package genling;
 
 import java.util.regex.Pattern;
 import java.lang.Math;
@@ -13,7 +13,6 @@ public class FilterRule
 
 	public FilterRule(String regex, double probability, boolean deny)
 	{
-		super();
 		setRegex(regex);
 		this.probability = probability;
 		this.deny = deny;
@@ -21,14 +20,12 @@ public class FilterRule
 
 	public FilterRule(String regex, double probability)
 	{
-		super();
 		setRegex(regex);
 		this.probability = probability;
 	}
 
 	public FilterRule(String regex)
 	{
-		super();
 		setRegex(regex);
 	}
 

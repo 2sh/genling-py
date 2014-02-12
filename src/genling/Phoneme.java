@@ -1,4 +1,4 @@
-package creling;
+package genling;
 
 public class Phoneme
 {
@@ -16,7 +16,6 @@ public class Phoneme
 	 */
 	public Phoneme(String grapheme, int weight)
 	{
-		super();
 		this.grapheme = grapheme;
 		this.weight = weight;
 	}
@@ -28,7 +27,6 @@ public class Phoneme
 	 */
 	public Phoneme(String grapheme)
 	{
-		super();
 		this.grapheme = grapheme;
 		this.weight = 1;
 	}

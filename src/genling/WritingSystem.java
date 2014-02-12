@@ -1,4 +1,4 @@
-package creling;
+package genling;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,6 @@ public class WritingSystem
 
 	public WritingSystem(ArrayList<ReplaceRule> replaceRules)
 	{
-		super();
 		this.replaceRules = replaceRules;
 	}
 	
