@@ -9,7 +9,7 @@ In this attempt I'm using Java due to its processing speed and cross-platform
 capabilities. The generator makes use of user input
 regex for deciding whether a generated word stem is allowed or not
 (e.g. combinations of phonemes that are not permitted) and in transliterating
-a generated word/stem from a "raw" representation (e.g. "<ge><hYo><uN><e><nu>")
+a generated word/stem from a "raw" representation (e.g. "&lt;ge&gt;&lt;hYo&gt;&lt;uN&gt;&lt;e&gt;&lt;nu&gt;")
 into a "final" representation (e.g. "gehyōn'enu", "げひょうんえぬ", ).
 In the generating process user input weights and probabilities are used
 which affect the usage of individual phonemes, usage of syllable segments,
