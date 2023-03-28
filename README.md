@@ -1,3 +1,5 @@
+Continuation of this project at [https://github.com/2sh/genling](https://github.com/2sh/genling) using Javascript instead as it allows for nice web interfaces and no installation on client machines.
+
 # Generatrum Linguarum
 This is a project to develop a Python library with which it is possible to generate a spoken constructed language, a conlang. In the library's current state, it is possible to program a word generator.
 
